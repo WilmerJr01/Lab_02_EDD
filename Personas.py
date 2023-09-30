@@ -13,6 +13,7 @@ class Persona(ABC):
     @abstractmethod
     def cerrarSesion(self)->bool:
         pass
+    
 
 class Manager(Persona):
     def __init__(self, nombre: str, apellido: str, usuario: str, contraseña: str, ID: str):
@@ -62,3 +63,11 @@ class Usuario(Persona):
 
     def cerrarSesion(self) -> bool:
         print("Sesión Cerrada")
+    
+    def __repr__(self) -> str:
+        return (
+            f'Nombre: {self._nombre} \n'
+            f'Cantidad: {self._apellido} \n'
+            f'Precio: {self._usuario} \n'
+            f'Categoria: {self._contraseña}'
+        )

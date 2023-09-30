@@ -7,6 +7,9 @@ class Tienda:
         self.__Managers= []
         self.__Productos= []
     
+    def add_Usuario(self, usuario: Usuario):
+        self.__Usuarios.append(usuario)
+    
     def get_Usuarios(self):
         return self.__Usuarios
     
