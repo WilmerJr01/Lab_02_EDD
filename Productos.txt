@@ -1,0 +1,30 @@
+Cyberpunk 2077,40,50,1
+Call of Duty: Warzone,45,60,2
+Among Us,35,5,3
+The Legend of Zelda: Breath of the Wild,30,55,4
+Fortnite,50,0,6
+Valorant,40,0,2
+Minecraft,45,30,5
+Apex Legends,30,0,6
+FIFA 23,50,45,7
+Genshin Impact,35,0,1
+Grand Theft Auto V,40,25,8
+Animal Crossing: New Horizons,45,50,9
+League of Legends,30,0,10
+Halo Infinite,50,60,2
+Death Stranding,40,40,11
+Red Dead Redemption 2,35,45,4
+Super Mario Odyssey,30,50,4
+Assassin's Creed Valhalla,50,55,4
+Overwatch,45,30,2
+Resident Evil Village,30,55,12
+Stardew Valley,40,20,9
+Celeste,50,15,4
+Control,35,40,11
+The Witcher 3: Wild Hunt,30,40,1
+Rainbow Six Siege,45,35,2
+Satisfactory,50,30,9
+Monster Hunter Rise,30,50,11
+Ghost of Tsushima,40,55,4
+Hades,35,25,11
+Phasmophobia,45,15,12
