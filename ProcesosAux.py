@@ -1,5 +1,28 @@
 import os
 import platform
+import sys
+import time
+
+def verificar_solo_numeros(cadena):
+    # Verifica si la cadena no está vacía y si contiene solo números
+    if cadena and cadena.isdigit():
+        return True
+    else:
+        return False
+
+def verificar_solo_letras(cadena):
+    # Verifica si la cadena no está vacía y si contiene solo letras (sin espacios ni otros caracteres)
+    if cadena and cadena.isalpha():
+        return True
+    else:
+        return False
+
+def verificar_sin_espacios(cadena):
+    # Verifica si la cadena no está vacía y si no contiene espacios en blanco
+    if cadena and ' ' not in cadena:
+        return True
+    else:
+        return False
 
 def imprimir(texto, color):
     # Definir códigos ANSI para cambiar el color del texto
@@ -80,3 +103,17 @@ def opcionValida(opcion, a, b):
         numero = int(opcion)
         return a <= numero <= b
     return False
+
+
+def animacion(a: str):
+    carrito = a
+    espacio_vacio = " " * len(carrito)
+    ancho_pantalla = 50
+    correr=True
+    while correr:
+        for i in range(ancho_pantalla, -1, -1):
+            desplazamiento = " " * i + carrito + espacio_vacio
+            sys.stdout.write("\r" + desplazamiento)
+            sys.stdout.flush()
+            time.sleep(0.05)
+        correr= False

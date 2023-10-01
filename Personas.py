@@ -33,7 +33,7 @@ class Manager(Persona):
         return self._contraseña
     
     def get_ID(self):
-        return self._ID
+        return self.__ID
     
     def iniciarSesion(self, usuario: str, contraseña: str) -> bool:
         print("Inicio de sesión fallido")
@@ -58,6 +58,9 @@ class Usuario(Persona):
     def get_contraseña(self):
         return self._contraseña
     
+    def get_Carrito(self):
+        return self.__Carrito
+    
     def iniciarSesion(self, usuario: str, contraseña: str) -> bool:
         print("Sesion Iniciada")
 
@@ -67,7 +70,7 @@ class Usuario(Persona):
     def __repr__(self) -> str:
         return (
             f'Nombre: {self._nombre} \n'
-            f'Cantidad: {self._apellido} \n'
-            f'Precio: {self._usuario} \n'
-            f'Categoria: {self._contraseña}'
+            f'Apellido: {self._apellido} \n'
+            f'Usuario: {self._usuario} \n'
+            f'Contraseña: {self._contraseña}'
         )

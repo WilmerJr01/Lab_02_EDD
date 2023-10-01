@@ -10,6 +10,12 @@ class Tienda:
     def add_Usuario(self, usuario: Usuario):
         self.__Usuarios.append(usuario)
     
+    def add_Manager(self, manager: Manager):
+        self.__Managers.append(manager)
+    
+    def add_Producto(self, producto: Producto):
+        self.__Productos.append(producto)
+    
     def get_Usuarios(self):
         return self.__Usuarios
     
